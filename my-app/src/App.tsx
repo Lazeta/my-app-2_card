@@ -28,10 +28,20 @@ function App() {
               ornare in venen.
             </DescriptionCard>
             <Buttons>
-              <Button color={myTheme.colors.primary} btnType={"primary"}>
+              <Button
+                color={myTheme.colors.transparent}
+                btnType={"primary"}
+                fontSize="1.2rem"
+              >
                 See More
               </Button>
-              <Button btnType={"finite"}>Save</Button>
+              <Button
+                color={myTheme.colors.primary}
+                btnType={"finite"}
+                fontSize="1.2rem"
+              >
+                Save
+              </Button>
             </Buttons>
           </WrapperCard>
         </BoxCard>
