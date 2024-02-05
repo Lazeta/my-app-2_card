@@ -2,14 +2,14 @@ import React from "react";
 import "./App.css";
 import styled from "styled-components";
 import { ThemeProvider } from "styled-components";
-import { myTheme } from "./components/styles/MyTheme.styled";
 import { BoxCard } from "./components/styles/BoxCard.styled";
-import { Button } from "./components/styles/Buttons/Button.styled";
+import { WrapperCard } from "./components/styles/WrapperCard.styled";
+import { myTheme } from "./components/styles/MyTheme.styled";
 import { CoverCard } from "./components/styles/CoverCard.styled";
 import { TitleCard } from "./components/styles/TitleCard.styled";
 import { DescriptionCard } from "./components/styles/DescriptionCard.styled";
 import { Buttons } from "./components/styles/Buttons/Buttons.styled";
-import { WrapperCard } from "./components/styles/WrapperCard.styled";
+import { Button } from "./components/styles/Buttons/Button.styled";
 
 const StyledDiv = styled.div`
   background-color: ${(props) => props.theme.colors.theme};
